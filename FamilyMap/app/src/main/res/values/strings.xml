@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personActivityFirstNameTextViewLabel">First Name</string>
+    <string name="personActivityFirstNameGrayAreaTextViewLabel">FIRST NAME</string>
+    <string name="personActivityLastNameTextViewLabel">Last Name</string>
+    <string name="personActivityLastNameGrayAreaTextViewLabel">LAST NAME</string>
+    <string name="personActivityGenderTextViewLabel">Gender</string>
+    <string name="personActivityGenderGrayAreaTextViewLabel">GENDER</string>
+    <string name="lifeStoryLinesSettingsRowTopLabel">Life Story Lines</string>
+    <string name="lifeStoryLinesSettingsRowBottomLabel">SHOW LIFE STORY LINES</string>
+    <string name="treeLinesSettingsRowTopLabel">Family Tree Lines</string>
+    <string name="treeLinesSettingsRowBottomLabel">SHOW FAMILY TREE LINES</string>
+    <string name="spouseLinesSettingsRowTopLabel">Spouse Lines</string>
+    <string name="spouseLinesSettingsRowBottomLabel">SHOW SPOUSE LINES</string>
+    <string name="mapSettingsRowTopLabel">Map Type</string>
+    <string name="mapSettingsRowBottomLabel">BACKGROUND DISPLAY ON MAP</string>
+    <string name="resyncDataRowTopLabel">Re-sync Data</string>
+    <string name="resyncDataRowBottomLabel">FROM FAMILYMAP SERVICE</string>
+    <string name="logoutRowTopLabel">Logout</string>
+    <string name="logoutRowBottomLabel">RETURNS TO LOGIN SCREEN</string>
+    <string name="mapFragmentBottomInfoTopRowDefaultText">Click on a marker</string>
+    <string name="mapFragmentBottomInfoBottomRowDefaultText">to see event details</string>
+    <string name="appName">Family Map</string>
+    <string name="serverHostTextViewText">Server Host:</string>
+    <string name="ServerPortTextViewText">Server Port:</string>
+    <string name="signInButtonText">SIGN IN</string>
+    <string name="registerButtonText">REGISTER</string>
+    <string name="userNameTextViewText">User Name:</string>
+    <string name="passwordTextViewText">Password:</string>
+    <string name="firstNameTextViewText">First Name:</string>
+    <string name="lastNameTextViewText">Last Name:</string>
+    <string name="emailTextViewText">Email:</string>
+    <string name="genderTextViewText">Gender:</string>
+    <string name="maleRadioButtonText">Male</string>
+    <string name="femaleRadioButtonText">Female</string>
+    <string name="defaultServerHostEditTextText">10.0.2.2</string>
+    <string name="defaultServerPortEditTextText">8080</string>
+    <string name="searchMenuOptionTitle">Search</string>
+    <string name="filterMenuOptionTitle">Filter</string>
+    <string name="settingsMenuOptionTitle">Settings</string>
+
+
+
+
+    <string-array name="lineColorOptions">
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Indigo</item>
+        <item>Violet</item>
+    </string-array>
+
+    <string-array name="mapTypeOptions">
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+        <item>Hybrid</item>
+    </string-array>
+
+</resources>

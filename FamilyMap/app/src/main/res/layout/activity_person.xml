@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/grayShade">
+
+        <TextView
+            android:id="@+id/personActivityFirstNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personActivityFirstNameTextViewLabel"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personActivityFirstNameGrayAreaTextViewLabel"
+            android:textSize="20dp"
+            android:background="@drawable/textlines" />
+        <TextView
+            android:id="@+id/lastNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personActivityLastNameTextViewLabel"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personActivityLastNameGrayAreaTextViewLabel"
+            android:textSize="20dp"
+            android:background="@drawable/textlines" />
+
+        <TextView
+            android:id="@+id/genderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personActivityGenderTextViewLabel"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personActivityGenderGrayAreaTextViewLabel"
+            android:textSize="20dp"
+            android:background="@drawable/textlines" />
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/personActivityExpandableListView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+</LinearLayout>

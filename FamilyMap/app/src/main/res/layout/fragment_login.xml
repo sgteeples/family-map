@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.MainActivity" >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:horizontalSpacing="0dp"
+            android:rowCount="8"
+            android:useDefaultMargins="false"
+            android:verticalSpacing="0dp">
+
+            <TextView
+                android:id="@+id/serverHostTextView"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:gravity="right"
+                android:text="@string/serverHostTextViewText"
+                android:textAlignment="gravity"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/serverHostEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:text="@string/defaultServerHostEditTextText"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/serverPortTextView"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:gravity="right"
+                android:text="@string/ServerPortTextViewText"
+                android:textAlignment="gravity"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/serverPortEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:text="@string/defaultServerPortEditTextText"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/userNameTextView"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:gravity="right"
+                android:text="@string/userNameTextViewText"
+                android:textAlignment="gravity"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/usernameEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/passwordTextView"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:gravity="right"
+                android:text="@string/passwordTextViewText"
+                android:textAlignment="gravity"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/firstNameTextView"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:gravity="right"
+                android:text="@string/firstNameTextViewText"
+                android:textAlignment="gravity"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/firstNameEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/lastNameTextView"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:gravity="right"
+                android:text="@string/lastNameTextViewText"
+                android:textAlignment="gravity"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/lastNameEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/emailTextView"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:gravity="right"
+                android:text="@string/emailTextViewText"
+                android:textAlignment="gravity"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textEmailAddress"
+                android:text=""
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/genderTextView"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:gravity="right"
+                android:text="@string/genderTextViewText"
+                android:textAlignment="gravity"
+                android:textSize="22sp" />
+
+            <RadioGroup
+                android:id="@+id/genderRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/maleRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/maleRadioButtonText"
+                    android:textSize="22sp" />
+
+                <RadioButton
+                    android:id="@+id/femaleRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/femaleRadioButtonText"
+                    android:textSize="22sp" />
+            </RadioGroup>
+        </GridLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/signInButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:text="@string/signInButtonText"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:text="@string/registerButtonText"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
