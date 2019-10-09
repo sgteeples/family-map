@@ -1,6 +1,6 @@
 # Family Map
 
-Family Map is an application that provides a geographical view of your family history. It's an Android app I built for BYU CS 240. See [specs](https://students.cs.byu.edu/~cs240ta/fall2018/projects/family-map-server/FamilyMapServerSpecification.pdf). The tools used to make it were Java, XML, JSON, the Google Maps API, and SQLite.
+Family Map is an application that provides a geographical view of your family history. It's an Android app with a client server architecture that I built for BYU CS 240. See [specs](https://students.cs.byu.edu/~cs240ta/fall2018/projects/family-map-server/FamilyMapServerSpecification.pdf). The tools used to make it were Java, XML, JSON, the Google Maps API, and SQLite.
 
 ## Login
 ![Alt text](/images/login.png?raw=true)
